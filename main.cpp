@@ -29,7 +29,7 @@ int main()
 
     SortTestHelper::testSort("Insertion Sort", insertionSort, arr1, n);
     SortTestHelper::testSort("Selection Sort", selection_sort, arr2, n);
-    SortTestHelper::testSort("Bubble Sort", bubble_sort, arr3, n);
+    //SortTestHelper::testSort("Bubble Sort", bubble_sort, arr3, n);
     SortTestHelper::testSort("shell sort", shell_sort, arr4, n);
     SortTestHelper::testSort("merge Sort", mergeSort, arr5, n);
     SortTestHelper::testSort("merge Sort BU", mergeSortBU, arr6, n);
